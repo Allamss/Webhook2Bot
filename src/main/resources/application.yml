@@ -1,0 +1,14 @@
+spring:
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  port: 12123
+
+wecom:
+  webhook: https://qyapi.weixin.qq.com/xxx
+
+webhook:
+  # 回调访问密钥
+  key: xxx
